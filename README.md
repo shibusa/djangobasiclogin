@@ -1,6 +1,6 @@
 # Django Basic Login
 
-Barebones standard login registration page.
+Barebones standard login registration page written in Python with Django framework. Login/Registration/Logout html are templated allowing them to be embedded in other pages as needed.
 
 ### Requirements:
 - Django 1.11.3
@@ -9,7 +9,7 @@ Barebones standard login registration page.
 ### Demo Purposes:
 1. Install dependencies found in 'requirements.txt'
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 2. Make migrations
 ```
