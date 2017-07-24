@@ -1,0 +1,12 @@
+<html>
+  <head>
+    {% load staticfiles %}
+    <title>Shibusa Main</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'login/style.css' %}">
+  </head>
+  <body>
+    {% include 'login/logout.html' %}
+    <h1>Welcome, {{ request.session.user.first }} {{ request.session.user.last }}</h1>
+    <p>Current HTTP Server Hostname: {{ hostname }}</p>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+* {
+  font-size:14px;
+  font-family:sans-serif;
+  padding:0px;
+  margin:0px;
+}
+
+#logout {
+  position:absolute;
+  top:0;
+  right:0;
+}
+
+.success {
+  color:green;
+}
+
+.error {
+  color:red;
+}
